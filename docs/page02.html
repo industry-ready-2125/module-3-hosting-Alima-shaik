@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select your destination</title>
+
+    <style>
+       body {
+            font-family: "Lucida Handwriting", "Brush Script mT";
+            padding: 10px;
+            background-image: url('des.jpg');
+background-repeat: no-repeat;
+            background-size: cover;
+            }
+        .wrapper{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+grid-gap:5px;
+text-align:center;
+}
+img{
+width: 100%;
+border-radius: 20px;
+
+}
+.box{
+padding: 10px;}
+      
+    div img:hover
+{
+filter: grayscale(1);
+transform: scale(1.03);
+}
+</style>
+</head>
+<body>
+<header >
+<h2>choose your destination</h2>
+</header>
+    <!-- Image 1 -->
+div  class="wrapper">
+<div  class="box" onclick="redirectToPage('page1.html')">
+<a href="https://www.holidify.com/state/kerala/" ><img src="C:\Users\DELL\Desktop\kerala.jpg" alt="Image 1"></a>
+<br>
+<label for="name1">kerala</label>
+</div>
+
+    <!-- Image 2 -->
+<div class="box" onclick="redirectToPage('page2.html')">
+<a href="https://www.holidify.com/places/delhi/"> <img src="C:\Users\DELL\Desktop\delhi.jpg" alt="Image 2"></a>
+<br>
+<label for="name2">delhi</label>
+</div>
+
+    <!-- Image 3 -->
+<div class="box" onclick="redirectToPage('page3.html')">
+<a href="https://www.holidify.com/places/mumbai/"> <img src="C:\Users\DELL\Desktop\mumbai.webp" alt="Image 3"></a>
+<br>
+<label for="name3">mumbai</label>
+       
+</div>
+ <div class="box" onclick="redirectToPage('page3.html')">
+  <a href="https://www.holidify.com/state/andhra-pradesh/top-destinations-places-to-visit.html" ><img src="C:\Users\DELL\Desktop\ap.jpg" alt="Image 3"></a>
+  <br>
+  <label for="name4">andhra pradesh</label>
+       
+    </div>
+      <div class="box" onclick="redirectToPage('page3.html')">
+       <a href="https://www.holidify.com/places/goa/"> <img src="C:\Users\DELL\Desktop\goa.jpg" alt="Image 3"></a>
+        <br>
+        <label for="name5">goa</label>
+       
+    </div>
+
+     
+      <div class="box" onclick="redirectToPage('page.html')">
+      <a href="https://www.tripadvisor.in/Attractions-g297619-Activities-Jammu_and_Kashmir.html">  <img src="C:\Users\DELL\Desktop\jammu.jpg" alt="Image 3"></a>
+        <br>
+        <label for="name6">jammu and kashmir</label>
+       
+    </div>
+           
+    </div>
+</body>
+</html>
